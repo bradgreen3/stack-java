@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b0c2a64-a059-45d2-9ec7-2c1f2a5fb991" name="Default" comment="" />
+    <list default="true" id="2b0c2a64-a059-45d2-9ec7-2c1f2a5fb991" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StackTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +28,8 @@
           <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+                <state relative-caret-position="-140">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#319#320#0" expanded="true" />
@@ -53,10 +57,14 @@
           <file leaf-file-name="StackTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/StackTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="267">
-                  <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+                <state relative-caret-position="364">
+                  <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1044#1045#0" expanded="true" />
+                    <element signature="e#1083#1084#0" expanded="true" />
+                    <element signature="e#1380#1381#0" expanded="true" />
+                    <element signature="e#1407#1408#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -82,6 +90,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -325,6 +336,9 @@
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -338,37 +352,6 @@
             <path>
               <item name="stack" type="b2602c69:ProjectViewProjectNode" />
               <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="stack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stack" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,7 +390,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="JUnit.StackTest.size_returnsZeroWhenNoObjectsOnStack">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -445,23 +428,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StackTest.pop_removesLastObjectFromStackAndReturnsIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="stack_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <option name="METHOD_NAME" value="pop_removesLastObjectFromStackAndReturnsIt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="StackTest.pop_returnsNullWhenStackIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="stack_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -486,6 +452,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StackTest" />
       <option name="METHOD_NAME" value="size_returnsTotalNumberOfObjectsOnStack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StackTest.size_returnsZeroWhenNoObjectsOnStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stack_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="size_returnsZeroWhenNoObjectsOnStack" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -536,18 +519,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StackTest" />
-      <item itemvalue="JUnit.StackTest.pop_removesLastObjectFromStackAndReturnsIt" />
       <item itemvalue="JUnit.StackTest.size_returnsTotalNumberOfObjectsOnStack" />
       <item itemvalue="JUnit.StackTest.peek_returnsNullWhenStackIsEmpty" />
       <item itemvalue="JUnit.StackTest.pop_returnsNullWhenStackIsEmpty" />
+      <item itemvalue="JUnit.StackTest.size_returnsZeroWhenNoObjectsOnStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.size_returnsZeroWhenNoObjectsOnStack" />
         <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.StackTest.pop_returnsNullWhenStackIsEmpty" />
         <item itemvalue="JUnit.StackTest.peek_returnsNullWhenStackIsEmpty" />
         <item itemvalue="JUnit.StackTest.size_returnsTotalNumberOfObjectsOnStack" />
-        <item itemvalue="JUnit.StackTest.pop_removesLastObjectFromStackAndReturnsIt" />
       </list>
     </recent_temporary>
   </component>
@@ -561,26 +544,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549513758853</updated>
-      <workItem from="1549513760254" duration="4865000" />
+      <workItem from="1549513760254" duration="5360000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StackTest - 2019.02.07 at 21h 23m 04s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest - 2019.02.07 at 21h 26m 07s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest - 2019.02.07 at 21h 27m 37s.xml">
-      <configuration name="StackTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_peek_returnsLastObjectFromStackWhenMoreThanOneObjectPresent - 2019.02.07 at 21h 31m 55s.xml">
-      <configuration name="StackTest.peek_returnsLastObjectFromStackWhenMoreThanOneObjectPresent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest_pop_removesLastObjectFromStackAndReturnsIt - 2019.02.07 at 21h 35m 56s.xml">
-      <configuration name="StackTest.pop_removesLastObjectFromStackAndReturnsIt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StackTest - 2019.02.07 at 21h 52m 20s.xml">
       <configuration name="StackTest" configurationId="JUnit" />
     </history-entry>
@@ -596,9 +564,24 @@
     <history-entry file="StackTest_size_returnsTotalNumberOfObjectsOnStack - 2019.02.07 at 22h 00m 43s.xml">
       <configuration name="StackTest.size_returnsTotalNumberOfObjectsOnStack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StackTest_peek_returnsNullWhenStackIsEmpty - 2019.02.07 at 22h 02m 37s.xml">
+      <configuration name="StackTest.peek_returnsNullWhenStackIsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_peek_returnsNullWhenStackIsEmpty - 2019.02.07 at 22h 03m 59s.xml">
+      <configuration name="StackTest.peek_returnsNullWhenStackIsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_peek_returnsNullWhenStackIsEmpty - 2019.02.07 at 22h 04m 12s.xml">
+      <configuration name="StackTest.peek_returnsNullWhenStackIsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest_pop_returnsNullWhenStackIsEmpty - 2019.02.07 at 22h 05m 38s.xml">
+      <configuration name="StackTest.pop_returnsNullWhenStackIsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StackTest - 2019.02.07 at 22h 05m 46s.xml">
+      <configuration name="StackTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4865000" />
+    <option name="totallyTimeSpent" value="5360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -613,12 +596,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.32876712" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Gradle" />
@@ -659,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="-140">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
@@ -673,10 +656,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        <state relative-caret-position="364">
+          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>

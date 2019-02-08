@@ -64,7 +64,7 @@ public class StackTest {
     }
 
     @Test
-    public void size_returnsTotalNumberOfObjectsOnStack() {
+    public void size_returnsTotalNumberOfObjectsOnStackWhenObjectsPresent() {
         stack.push("first");
         stack.push("second");
         stack.push("third");
@@ -72,5 +72,11 @@ public class StackTest {
 
         Integer actual = stack.size();
         assertThat(actual).isEqualTo(2);
+    }
+
+    @Test
+    public void size_returnsZeroWhenNoObjectsOnStack() {
+        Integer actual = stack.size();
+        assertThat(actual).isEqualTo(0);
     }
 }
