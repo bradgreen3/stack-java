@@ -10,7 +10,6 @@ public class Stack {
 
         incomingNode.data = object;
         incomingNode.previousNode = topNode;
-
         topNode = incomingNode;
     }
 
@@ -23,13 +22,11 @@ public class Stack {
     }
 
     public Object pop() {
-
         if (isNull(topNode)) {
             return null;
         }
 
         Node poppedNode = topNode;
-
         topNode = topNode.previousNode;
 
         return poppedNode.data;
